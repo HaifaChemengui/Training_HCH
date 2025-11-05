@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bloc 4  Margin vs Padding</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      color: #333;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0078D7;
+    }
+
+    .container {
+      display: flex; 
+      justify-content: center;
+      gap: 40px; 
+      margin-top: 40px;
+    }
+
+    .box {
+      border: 2px solid #333;
+      width: 150px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+
+    .box-a {
+      margin: 20px; 
+      background-color: lightcoral;
+    }
+
+
+    .box-b {
+      padding: 20px; 
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Exercice : Margin vs Padding</h2>
+
+  <div class="container">
+    <div class="box box-a">
+      BOX A<br>(margin)<br>outside
+    </div>
+    <div class="box box-b">
+      BOX B<br>(padding)<br>inside
+    </div>
+  </div>
+
+</body>
+</html>

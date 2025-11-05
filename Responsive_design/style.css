@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: left;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .left {
+    background-color: #eee;
+  }
+  
+  .right {
+    background-color: #d7e6f9;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.2); /* Agrandissement au hover */
+  }
+  
+  /* Media query pour mobile */
+  @media (max-width: 599px) {
+    .container {
+      flex-direction: column;
+    }
+  }

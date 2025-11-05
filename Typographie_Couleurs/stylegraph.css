@@ -1,0 +1,46 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif; /* police claire et moderne */
+    color: #333; /* couleur du texte */
+    line-height: 1.6; /* espacement entre les lignes */
+    margin: 0;
+    background-color: #f8f9fa; /* gris très clair */
+  }
+  
+  /* --- Header --- */
+  header {
+    background-color: #0078D7; /* bleu */
+    color: white;
+    text-align: center; /* centre le titre */
+    padding: 20px 0;
+  }
+  
+  /* --- Titre principal --- */
+  #main-title {
+    font-size: 2.2em;
+    margin: 0;
+    color: #ffcc00; /* jaune pour contraste */
+  }
+  
+  /* --- Contenu principal --- */
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .intro {
+    font-size: 18px;
+    text-align: justify; /* texte bien aligné */
+  }
+  
+  /* --- Footer --- */
+  footer {
+    background-color: #333; /* fond foncé */
+    color: #f1f1f1; /* texte clair */
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
