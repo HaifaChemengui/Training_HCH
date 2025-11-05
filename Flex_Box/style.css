@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;       
+    gap: 20px;           
+    justify-content: space-between;
+  }
+  
+ 
+  .box {
+    flex: 1;               
+    padding: 40px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  /* Mobile : empile verticalement */
+  @media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }

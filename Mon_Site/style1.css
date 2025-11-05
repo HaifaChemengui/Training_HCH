@@ -1,0 +1,134 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0078D7; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+
+  #main-title {
+    margin: 0;
+    font-size: 2em;
+    color: #ffcc00; 
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+
+  .intro {
+    border: 2px solid #888;   
+    padding: 20px;          
+    margin-bottom: 16px;
+    background-color: #fafafa;
+  }
+  
+
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  
+
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+ 
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0078D7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #e9ecef;
+  }
+  
+
+  footer {
+    background-color: #0078D7;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    text-decoration: none;
+  }
+  .colors li:first-child {
+    color: blue;
+  }
+  
+  .colors li:nth-child(even) {
+    color: green;
+  }
+  
+  section > p:not(.skip) {
+    font-weight: bold;
+  }

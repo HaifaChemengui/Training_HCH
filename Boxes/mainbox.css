@@ -1,0 +1,13 @@
+main {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+  }
+  
+  #main-title {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+  }
